@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-label="Dental clinic illustration">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf8fa"/><stop offset="1" stop-color="#f8fcfd"/></linearGradient>
+  <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58c9bd"/><stop offset="1" stop-color="#0d9488"/></linearGradient>
+</defs>
+<rect width="800" height="620" rx="36" fill="url(#bg)"/>
+
+<rect x="100" y="60" width="600" height="500" rx="28" fill="#e8f6f8"/>
+<circle cx="400" cy="214" r="87" fill="#c4e5e8"/>
+<path d="M307 212c0-63 35-103 93-103s93 40 93 103v18H307z" fill="#123044"/>
+<ellipse cx="400" cy="225" rx="67" ry="78" fill="#d7a98d"/>
+<path d="M334 213q65-55 132 0v-26q-10-69-66-69t-66 69z" fill="#123044"/>
+<path d="M280 510c9-107 52-161 120-161s111 54 120 161" fill="#fff" stroke="#c4e1e5" stroke-width="7"/>
+<path d="M366 356l34 53 34-53" fill="#d8f4f0"/><path d="M400 409v99" stroke="#0d9488" stroke-width="7"/>
+<circle cx="375" cy="229" r="5" fill="#123044"/><circle cx="425" cy="229" r="5" fill="#123044"/><path d="M380 261q20 14 40 0" fill="none" stroke="#9b5f58" stroke-width="5" stroke-linecap="round"/>
+
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-label="Dental clinic illustration">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf8f8"/><stop offset="1" stop-color="#f8fcfd"/></linearGradient>
+  <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58c9bd"/><stop offset="1" stop-color="#0d9488"/></linearGradient>
+</defs>
+<rect width="800" height="620" rx="36" fill="url(#bg)"/>
+
+<circle cx="400" cy="300" r="165" fill="#e5f7f2"/>
+<path d="M310 190c-30-7-56 13-58 44-3 29 13 51 24 75l42 84c11 22 30 21 40 0l19-42c8-18 25-18 33 0l19 42c10 21 29 22 40 0l42-84c11-24 27-46 24-75-2-31-28-51-58-44-27 5-44 23-66 23s-39-18-67-23z" fill="#fff" stroke="#9acfc8" stroke-width="7"/>
+<path d="M308 260l-45 62M492 260l45 62" stroke="#0d9488" stroke-width="12" stroke-linecap="round"/>
+<circle cx="262" cy="325" r="14" fill="#58c9bd"/><circle cx="538" cy="325" r="14" fill="#58c9bd"/>
+<path d="M388 270v61M357 300h62" stroke="#0d9488" stroke-width="12" stroke-linecap="round"/>
+
+</svg>

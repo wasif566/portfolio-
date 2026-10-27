@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-label="Dental clinic illustration">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf8f8"/><stop offset="1" stop-color="#f8fcfd"/></linearGradient>
+  <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58c9bd"/><stop offset="1" stop-color="#0d9488"/></linearGradient>
+</defs>
+<rect width="800" height="620" rx="36" fill="url(#bg)"/>
+
+<circle cx="400" cy="300" r="165" fill="#e2f4fb"/>
+<path d="M282 201c-30-5-51 17-48 45 2 23 14 44 25 64l49 88c12 21 29 20 39-2l19-43c9-19 25-19 34 0l19 43c10 22 27 23 39 2l49-88c11-20 23-41 25-64 3-28-18-50-48-45-29 5-45 25-67 25s-38-20-67-25z" fill="#fff" stroke="#a9cddf" stroke-width="7"/>
+<path d="M343 290c18 20 41 28 70 28s52-8 70-28" fill="none" stroke="#0d9488" stroke-width="8" stroke-linecap="round"/>
+<path d="M255 163l-29 58M273 171l-28 57" stroke="#7cabbf" stroke-width="12" stroke-linecap="round"/><rect x="218" y="151" width="24" height="55" rx="10" transform="rotate(26 218 151)" fill="#0d9488"/>
+<path d="M540 166l-24 65M560 174l-24 65" stroke="#7cabbf" stroke-width="12" stroke-linecap="round"/><rect x="530" y="155" width="24" height="55" rx="10" transform="rotate(20 530 155)" fill="#58c9bd"/>
+<circle cx="400" cy="300" r="7" fill="#0d9488"/>
+
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 540" role="img" aria-labelledby="title desc">
+<title id="title">Student learning illustration</title><desc id="desc">A friendly student studying at a desk with books, a plant, and educational symbols.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5faff"/><stop offset="1" stop-color="#dceeff"/></linearGradient><linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#387fc3"/><stop offset="1" stop-color="#174d88"/></linearGradient></defs>
+<circle cx="320" cy="270" r="218" fill="url(#bg)"/><circle cx="495" cy="105" r="37" fill="#ffe6bd"/><path d="M88 414 Q118 374 150 414" fill="none" stroke="#b9d9f3" stroke-width="5" stroke-linecap="round"/>
+<rect x="118" y="330" width="405" height="18" rx="9" fill="#e3a05a"/><path d="M145 347 L130 465 M493 347 L510 465" stroke="#bb8048" stroke-width="12" stroke-linecap="round"/>
+<!-- books and plant -->
+<rect x="115" y="283" width="95" height="45" rx="5" fill="#f5b45e" transform="rotate(-7 115 283)"/><rect x="123" y="268" width="95" height="42" rx="5" fill="#fff" stroke="#d6e4f1" stroke-width="3" transform="rotate(-7 123 268)"/><path d="M138 283 L195 276" stroke="#7a9fbd" stroke-width="3"/>
+<path d="M475 325 L475 260" stroke="#438f73" stroke-width="6" stroke-linecap="round"/><path d="M474 289 Q438 287 438 258 Q470 257 474 289 M476 277 Q507 271 510 243 Q481 245 476 277 M475 310 Q445 312 438 291 Q465 287 475 310" fill="#67b695"/><path d="M451 326 L500 326 L493 344 L459 344 Z" fill="#ef9c66"/>
+<!-- student body -->
+<path d="M235 326 Q234 267 269 247 L354 247 Q397 269 402 326 Z" fill="url(#shirt)"/><path d="M269 249 Q308 276 354 249" fill="none" stroke="#8bbce6" stroke-width="4"/>
+<!-- neck and face -->
+<rect x="293" y="207" width="39" height="54" rx="17" fill="#d99268"/><ellipse cx="313" cy="169" rx="66" ry="76" fill="#f0b78d"/><path d="M249 172 Q225 99 292 91 Q357 74 378 135 Q382 151 375 173 L362 147 Q333 148 311 126 Q287 153 251 153 Z" fill="#293b4b"/><path d="M250 167 Q235 179 247 198" fill="none" stroke="#d99268" stroke-width="10" stroke-linecap="round"/><ellipse cx="285" cy="173" rx="5" ry="7" fill="#23374b"/><ellipse cx="338" cy="173" rx="5" ry="7" fill="#23374b"/><path d="M298 197 Q314 209 329 195" fill="none" stroke="#b65c54" stroke-width="4" stroke-linecap="round"/><path d="M278 157 Q285 151 292 157 M331 157 Q338 151 345 157" fill="none" stroke="#293b4b" stroke-width="4" stroke-linecap="round"/>
+<!-- arms and notebook -->
+<path d="M255 274 Q226 290 238 316 L281 332" fill="none" stroke="#f0b78d" stroke-width="22" stroke-linecap="round"/><path d="M372 274 Q403 290 391 314 L354 330" fill="none" stroke="#f0b78d" stroke-width="22" stroke-linecap="round"/><rect x="267" y="293" width="91" height="37" rx="4" fill="#fff" stroke="#c5d9ec" stroke-width="3"/><path d="M280 305 L343 305 M280 314 L334 314" stroke="#8bb4d9" stroke-width="3"/>
+<!-- education motifs -->
+<g transform="translate(421 143)"><rect width="81" height="64" rx="12" fill="#fff" stroke="#d7e8f6" stroke-width="3"/><path d="M16 21 L30 35 L16 49 M39 49 L53 21" fill="none" stroke="#347bb9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(132 150)"><circle cx="27" cy="27" r="26" fill="#fff"/><path d="M27 11 L32 22 L44 24 L35 32 L37 44 L27 38 L17 44 L19 32 L10 24 L22 22 Z" fill="#f3ae52"/></g>
+<path d="M390 400 Q430 383 465 400" stroke="#9fc9e9" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="175" cy="395" r="6" fill="#f2b45c"/><circle cx="448" cy="224" r="5" fill="#78b9a0"/>
+</svg>

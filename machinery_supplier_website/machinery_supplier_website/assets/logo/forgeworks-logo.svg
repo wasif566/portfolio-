@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ForgeWorks Industrial logo">
+  <rect width="64" height="64" rx="4" fill="#10243a"/>
+  <path d="M13 13h38v9H23v8h23v9H23v12H13z" fill="#f28b28"/>
+  <path d="M31 13h20v9H40v8h11v9H40v12H31z" fill="#ffffff" opacity=".92"/>
+  <path d="M10 56h44" stroke="#f28b28" stroke-width="3"/>
+</svg>

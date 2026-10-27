@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101d35">
+  <title>Haven & Co. | Find Your Place</title>
+  <meta name="description" content="Explore residential and commercial property opportunities. Contact Haven & Co. for buying, selling, and rental inquiries.">
+  <meta property="og:title" content="Haven & Co. | Find Your Place">
+  <meta property="og:description" content="Explore properties and connect with our team for buying, selling, and rental inquiries.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Haven and Co home">
+        <img src="assets/logo.svg" alt="" width="42" height="42">
+        <span><strong>HAVEN <i>&</i> CO.</strong><small>PROPERTY ADVISORS</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a><a href="#properties">Properties</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a>
+        <a class="nav-cta" href="#inquiry">List Your Property <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow"><span></span> FIND YOUR NEXT CHAPTER</p>
+        <h1>Find a property<br>that feels like <em>home.</em></h1>
+        <p class="hero-copy">Thoughtful guidance for your next move. Explore property opportunities and talk with our team about buying, selling, or renting.</p>
+        <div class="hero-actions"><a class="btn btn-gold" href="#properties">Explore Properties <span>↗</span></a><a class="btn btn-outline" href="#contact">Talk to an Advisor</a></div>
+        <div class="hero-note"><span class="note-line"></span><span>RESIDENTIAL · COMMERCIAL · RENTALS</span></div>
+      </div>
+      <div class="hero-stamp"><span>YOUR</span><strong>PLACE</strong><span>YOUR PACE</span></div>
+    </section>
+
+    <section class="search-band" aria-label="Property search">
+      <div class="container search-panel">
+        <div class="search-intro"><span class="mini-label">START YOUR SEARCH</span><h2>What are you looking for?</h2></div>
+        <label>Purpose<select id="filter-purpose"><option value="all">Buy or rent</option><option value="buy">Buy</option><option value="rent">Rent</option></select></label>
+        <label>Category<select id="filter-category"><option value="all">All categories</option><option value="residential">Residential</option><option value="commercial">Commercial</option></select></label>
+        <label>Location<select id="filter-location"><option value="all">Any location</option><option value="Lahore">Lahore</option><option value="Islamabad">Islamabad</option><option value="Faisalabad">Faisalabad</option><option value="Karachi">Karachi</option></select></label>
+        <a class="search-button" href="#properties" aria-label="View filtered properties">↗</a>
+      </div>
+    </section>
+
+    <section class="section properties-section" id="properties">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow dark"><span></span> CURATED OPPORTUNITIES</p><h2>Spaces for every <em>next step.</em></h2></div>
+          <p>Browse our illustrative demo cards, or replace them with verified listings before publishing.</p>
+        </div>
+        <div class="demo-notice"><span>DEMO CONTENT</span> These sample cards are for website preview only and are not verified available properties. Replace or remove them before going live.</div>
+        <div class="property-grid" id="property-grid">
+          <article class="property-card" data-purpose="buy" data-category="residential" data-location="Lahore" data-id="DEMO-001" data-title="Contemporary Family Residence">
+            <div class="property-image image-one"><span class="property-tag">DEMO LISTING</span><button class="save-btn" aria-label="Save Contemporary Family Residence" type="button">♡</button></div>
+            <div class="property-body"><div class="property-meta"><span>RESIDENTIAL · BUY</span><span>LAHORE</span></div><h3>Contemporary Family Residence</h3><p class="property-desc">A sample listing for a bright, modern family home.</p><div class="property-specs"><span>⌂ 5 beds*</span><span>▦ 4 baths*</span><span>▧ 10 marla*</span></div><div class="property-footer"><span class="price">Price on inquiry</span><button class="text-link inquire-property" type="button">Enquire <span>↗</span></button></div></div>
+          </article>
+          <article class="property-card" data-purpose="rent" data-category="residential" data-location="Islamabad" data-id="DEMO-002" data-title="Calm City Apartment">
+            <div class="property-image image-two"><span class="property-tag">DEMO LISTING</span><button class="save-btn" aria-label="Save Calm City Apartment" type="button">♡</button></div>
+            <div class="property-body"><div class="property-meta"><span>RESIDENTIAL · RENT</span><span>ISLAMABAD</span></div><h3>Calm City Apartment</h3><p class="property-desc">A sample apartment concept with an open-plan feel.</p><div class="property-specs"><span>⌂ 3 beds*</span><span>▦ 2 baths*</span><span>▧ 1,600 sq ft*</span></div><div class="property-footer"><span class="price">Rent on inquiry</span><button class="text-link inquire-property" type="button">Enquire <span>↗</span></button></div></div>
+          </article>
+          <article class="property-card" data-purpose="buy" data-category="commercial" data-location="Faisalabad" data-id="DEMO-003" data-title="Modern Commercial Suite">
+            <div class="property-image image-three"><span class="property-tag">DEMO LISTING</span><button class="save-btn" aria-label="Save Modern Commercial Suite" type="button">♡</button></div>
+            <div class="property-body"><div class="property-meta"><span>COMMERCIAL · BUY</span><span>FAISALABAD</span></div><h3>Modern Commercial Suite</h3><p class="property-desc">A sample commercial space for business inquiries.</p><div class="property-specs"><span>▧ Flexible area*</span><span>⌁ Office use*</span></div><div class="property-footer"><span class="price">Price on inquiry</span><button class="text-link inquire-property" type="button">Enquire <span>↗</span></button></div></div>
+          </article>
+          <article class="property-card" data-purpose="rent" data-category="commercial" data-location="Karachi" data-id="DEMO-004" data-title="Street-Level Retail Space">
+            <div class="property-image image-four"><span class="property-tag">DEMO LISTING</span><button class="save-btn" aria-label="Save Street-Level Retail Space" type="button">♡</button></div>
+            <div class="property-body"><div class="property-meta"><span>COMMERCIAL · RENT</span><span>KARACHI</span></div><h3>Street-Level Retail Space</h3><p class="property-desc">A sample retail concept for leasing discussions.</p><div class="property-specs"><span>▧ Flexible area*</span><span>⌁ Retail use*</span></div><div class="property-footer"><span class="price">Rent on inquiry</span><button class="text-link inquire-property" type="button">Enquire <span>↗</span></button></div></div>
+          </article>
+          <article class="property-card" data-purpose="buy" data-category="residential" data-location="Faisalabad" data-id="DEMO-005" data-title="Garden Courtyard Home">
+            <div class="property-image image-five"><span class="property-tag">DEMO LISTING</span><button class="save-btn" aria-label="Save Garden Courtyard Home" type="button">♡</button></div>
+            <div class="property-body"><div class="property-meta"><span>RESIDENTIAL · BUY</span><span>FAISALABAD</span></div><h3>Garden Courtyard Home</h3><p class="property-desc">A sample home concept with outdoor living space.</p><div class="property-specs"><span>⌂ 4 beds*</span><span>▦ 3 baths*</span><span>▧ 1 kanal*</span></div><div class="property-footer"><span class="price">Price on inquiry</span><button class="text-link inquire-property" type="button">Enquire <span>↗</span></button></div></div>
+          </article>
+          <article class="property-card" data-purpose="rent" data-category="residential" data-location="Lahore" data-id="DEMO-006" data-title="Minimal Urban Flat">
+            <div class="property-image image-six"><span class="property-tag">DEMO LISTING</span><button class="save-btn" aria-label="Save Minimal Urban Flat" type="button">♡</button></div>
+            <div class="property-body"><div class="property-meta"><span>RESIDENTIAL · RENT</span><span>LAHORE</span></div><h3>Minimal Urban Flat</h3><p class="property-desc">A sample rental concept near city conveniences.</p><div class="property-specs"><span>⌂ 2 beds*</span><span>▦ 2 baths*</span><span>▧ 1,100 sq ft*</span></div><div class="property-footer"><span class="price">Rent on inquiry</span><button class="text-link inquire-property" type="button">Enquire <span>↗</span></button></div></div></article>
+        </div>
+        <p class="empty-state" id="empty-state" hidden>No demo cards match those filters. Try another combination.</p>
+        <div class="center-action"><button class="btn btn-dark" id="reset-filters" type="button">Reset Filters</button></div>
+      </div>
+    </section>
+
+    <section class="services-section section" id="services">
+      <div class="container">
+        <div class="section-heading light-heading"><div><p class="eyebrow"><span></span> HERE FOR THE WHOLE JOURNEY</p><h2>Good moves start with<br><em>good guidance.</em></h2></div><p>From the first question to the next set of keys, get help tailored to your property goals.</p></div>
+        <div class="services-grid">
+          <article class="service-card"><span class="service-number">01</span><div class="service-icon">⌂</div><h3>Buying a Property</h3><p>Clarify your needs, compare options, and arrange follow-up on properties you are interested in.</p><a href="#inquiry">Discuss buying <span>↗</span></a></article>
+          <article class="service-card"><span class="service-number">02</span><div class="service-icon">↗</div><h3>Selling a Property</h3><p>Share your property details and request a conversation about potential next steps.</p><a href="#inquiry">Discuss selling <span>↗</span></a></article>
+          <article class="service-card"><span class="service-number">03</span><div class="service-icon">⌑</div><h3>Rental Assistance</h3><p>Tell us your location, budget, and timing so the team can understand your requirements.</p><a href="#inquiry">Discuss renting <span>↗</span></a></article>
+          <article class="service-card"><span class="service-number">04</span><div class="service-icon">▤</div><h3>Commercial Spaces</h3><p>Explore office, retail, and other commercial property inquiries based on your needs.</p><a href="#inquiry">Explore commercial <span>↗</span></a></article>
+          <article class="service-card"><span class="service-number">05</span><div class="service-icon">◎</div><h3>Valuation Inquiry</h3><p>Request a discussion about your property. Any valuation should be independently verified.</p><a href="#inquiry">Request a discussion <span>↗</span></a></article>
+          <article class="service-card"><span class="service-number">06</span><div class="service-icon">⌁</div><h3>Investment Inquiry</h3><p>Discuss property criteria and due diligence. No returns or outcomes are guaranteed.</p><a href="#inquiry">Talk through goals <span>↗</span></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual"><div class="about-photo"></div><div class="about-caption"><strong>Every move</strong><span>starts with a conversation.</span></div><div class="about-outline"></div></div>
+        <div class="about-copy"><p class="eyebrow dark"><span></span> A MORE PERSONAL APPROACH</p><h2>Property is more than an <em>address.</em></h2><p class="lead">It is where your plans take shape.</p><p>Haven & Co. is a configurable real estate agency website concept built to help people explore property options and start a conversation. Replace this introduction with your agency's real story, experience, and service area before publishing.</p><div class="about-points"><div><span>01</span><p><strong>Clear communication</strong><small>Practical next steps, explained clearly.</small></p></div><div><span>02</span><p><strong>Guidance around your needs</strong><small>Start with your priorities and questions.</small></p></div><div><span>03</span><p><strong>Details that matter</strong><small>Verify listing facts before making decisions.</small></p></div></div><a class="btn btn-dark" href="#contact">Meet Your Property Partner <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="inquiry-section section" id="inquiry">
+      <div class="container inquiry-grid">
+        <div class="inquiry-copy"><p class="eyebrow"><span></span> LET'S TALK PROPERTY</p><h2>Tell us what<br>you're looking <em>for.</em></h2><p>Send your requirements directly to our WhatsApp business number. Your inquiry is not a booking or confirmation of property availability.</p><div class="inquiry-contact"><span class="contact-icon">↗</span><div><small>WHATSAPP INQUIRIES</small><strong>+92 326 6438812</strong></div></div></div>
+        <form id="inquiry-form" class="inquiry-form">
+          <div class="form-heading"><span>PROPERTY INQUIRY</span><p>Fields marked * are required.</p></div>
+          <div class="form-row"><label for="customer-name">Full name *</label><input id="customer-name" name="name" autocomplete="name" required placeholder="Your name"></div>
+          <div class="form-row two-cols"><div><label for="customer-phone">Phone number *</label><input id="customer-phone" name="phone" autocomplete="tel" required type="tel" placeholder="+92 ..."></div><div><label for="customer-email">Email (optional)</label><input id="customer-email" name="email" type="email" autocomplete="email" placeholder="you@example.com"></div></div>
+          <div class="form-row two-cols"><div><label for="inquiry-type">I'm interested in *</label><select id="inquiry-type" name="type" required><option value="">Choose one</option><option>Buying a property</option><option>Renting a property</option><option>Selling a property</option><option>Commercial property</option><option>Property valuation inquiry</option><option>Investment inquiry</option><option>General inquiry</option></select></div><div><label for="property-select">Property (optional)</label><select id="property-select" name="property"><option value="">No specific property</option><option>Contemporary Family Residence (DEMO-001)</option><option>Calm City Apartment (DEMO-002)</option><option>Modern Commercial Suite (DEMO-003)</option><option>Street-Level Retail Space (DEMO-004)</option><option>Garden Courtyard Home (DEMO-005)</option><option>Minimal Urban Flat (DEMO-006)</option></select></div></div>
+          <div class="form-row two-cols"><div><label for="preferred-location">Preferred location</label><input id="preferred-location" name="location" placeholder="City or area"></div><div><label for="budget">Budget range (optional)</label><input id="budget" name="budget" placeholder="e.g. PKR 2–3 crore"></div></div>
+          <div class="form-row"><label for="notes">Additional details</label><textarea id="notes" name="notes" rows="3" placeholder="Tell us about your requirements..."></textarea></div>
+          <button class="btn btn-gold form-submit" type="submit">Continue to WhatsApp <span>↗</span></button>
+          <p class="form-privacy">Your message opens in WhatsApp for you to review and send. This website does not submit information to a server.</p>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow dark"><span></span> GET IN TOUCH</p><h2>Let's find your<br><em>next place.</em></h2><p class="contact-intro">Questions about a property or ready to share your requirements? Start a conversation with us.</p><a class="contact-phone" href="tel:+923266438812">+92 326 6438812 <span>↗</span></a><a class="contact-email" href="mailto:hello@example.com">hello@example.com</a><div class="contact-details"><div><small>OFFICE ADDRESS</small><p>Replace with your verified office address, Pakistan</p></div><div><small>OPENING HOURS</small><p>Set your actual business hours before publishing</p></div></div><a class="text-link" href="https://wa.me/923266438812" target="_blank" rel="noopener">Chat on WhatsApp <span>↗</span></a></div>
+        <div class="map-placeholder"><div class="map-grid"></div><div class="map-pin">⌖</div><div class="map-label"><strong>Visit our office</strong><span>Add your verified address to enable directions.</span></div><a href="https://www.google.com/maps/search/?api=1&query=Pakistan" target="_blank" rel="noopener" class="map-link">Open Google Maps ↗</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-top"><a class="brand brand-light" href="#home"><img src="assets/logo.svg" alt="" width="42" height="42"><span><strong>HAVEN <i>&</i> CO.</strong><small>PROPERTY ADVISORS</small></span></a><p>Thoughtful property guidance, one conversation at a time.</p><a class="footer-top-link" href="#home">Back to top ↑</a></div><div class="container footer-bottom"><span>© <span id="year"></span> Haven & Co. Replace demo branding before publishing.</span><span>Privacy-conscious · No backend form submission</span></div></footer>
+  <a class="floating-whatsapp" href="https://wa.me/923266438812" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">◉</a>
+</body>
+</html>

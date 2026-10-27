@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore subjects, class options, and learning support at our tuition academy. Contact us to enquire about classes and availability.">
+  <meta name="theme-color" content="#123a66">
+  <title>BrightPath Tuition Academy | Learn Better. Achieve More.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="BrightPath Tuition Academy home">
+        <span class="brand-mark" aria-hidden="true">B<span>+</span></span>
+        <span class="brand-name">BrightPath <small>Tuition Academy</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a><a href="#courses">Courses</a><a href="#teachers">Teachers</a>
+        <a href="#timetable">Timetable</a><a href="#about">About</a><a href="#contact">Contact</a>
+        <a class="nav-cta" href="#enquiry">Enquire About Classes <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> A supportive place to learn</span>
+          <h1>Learn Better.<br><span>Achieve More.</span></h1>
+          <p class="hero-lead">Explore our subjects, class options, and learning support for your educational goals.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#courses">Explore Courses <span>→</span></a>
+            <a class="btn btn-secondary" href="#enquiry">Join a Class</a>
+          </div>
+          <div class="hero-note"><span class="note-icon">✓</span><span>Ask us about available subjects, class formats, and schedules.</span></div>
+          <div class="hero-stats">
+            <div><strong>01</strong><span>Ask a question</span></div>
+            <div><strong>02</strong><span>Explore your options</span></div>
+            <div><strong>03</strong><span>Confirm availability</span></div>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="art-backdrop"></div>
+          <img src="assets/learning-illustration.svg" alt="Illustration of a student learning at a desk with books and study materials">
+          <div class="floating-card floating-card-top"><span class="float-icon">✦</span><span><b>Curious minds</b><small>Grow through learning</small></span></div>
+          <div class="floating-card floating-card-bottom"><span class="book-icon">▤</span><span><b>Find your subject</b><small>Explore course options</small></span></div>
+          <span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✦</span>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>SUBJECTS TO EXPLORE</span><div>Mathematics <i>·</i> Sciences <i>·</i> Languages <i>·</i> Computing <i>·</i> Test preparation</div></div>
+    </section>
+
+    <section class="section courses-section" id="courses">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow">COURSE OPTIONS</span><h2>Build your learning path.</h2></div>
+          <p>Choose a subject to explore. Course availability, class levels, timings, and fees can be confirmed with the academy.</p>
+        </div>
+        <div class="filters" aria-label="Filter courses">
+          <label>Subject
+            <select id="subject-filter"><option value="all">All subjects</option><option value="science">Science & maths</option><option value="language">Languages</option><option value="technology">Technology</option><option value="support">School support</option><option value="exam">Test preparation</option></select>
+          </label>
+          <label>Class level
+            <select id="level-filter"><option value="all">All levels</option><option value="primary">Primary</option><option value="secondary">Secondary</option><option value="higher">Higher secondary</option><option value="all-levels">Multiple levels</option></select>
+          </label>
+          <button id="reset-filters" class="reset-btn" type="button">Reset filters ↺</button>
+        </div>
+        <div class="course-grid" id="course-grid">
+          <article class="course-card" data-subject="science" data-level="secondary higher">
+            <div class="course-icon icon-blue">∑</div><span class="course-tag">SCIENCE & MATHS</span><h3>Mathematics</h3><p>Build understanding of concepts, practice problem-solving, and strengthen core skills.</p><div class="course-meta"><span>Secondary / Higher secondary</span><span>Fee on enquiry</span></div><button class="text-link course-enquire" data-course="Mathematics" type="button">Enquire about course <span>↗</span></button>
+          </article>
+          <article class="course-card" data-subject="science" data-level="secondary higher">
+            <div class="course-icon icon-orange">⚛</div><span class="course-tag">SCIENCE & MATHS</span><h3>Physics</h3><p>Explore scientific principles and develop confidence applying concepts to questions.</p><div class="course-meta"><span>Secondary / Higher secondary</span><span>Fee on enquiry</span></div><button class="text-link course-enquire" data-course="Physics" type="button">Enquire about course <span>↗</span></button>
+          </article>
+          <article class="course-card" data-subject="science" data-level="secondary higher">
+            <div class="course-icon icon-green">⌬</div><span class="course-tag">SCIENCE & MATHS</span><h3>Chemistry</h3><p>Review key ideas, equations, and foundational chemistry topics with guided practice.</p><div class="course-meta"><span>Secondary / Higher secondary</span><span>Fee on enquiry</span></div><button class="text-link course-enquire" data-course="Chemistry" type="button">Enquire about course <span>↗</span></button>
+          </article>
+          <article class="course-card" data-subject="science" data-level="secondary higher">
+            <div class="course-icon icon-pink">♧</div><span class="course-tag">SCIENCE & MATHS</span><h3>Biology</h3><p>Study living systems, terminology, diagrams, and important subject concepts.</p><div class="course-meta"><span>Secondary / Higher secondary</span><span>Fee on enquiry</span></div><button class="text-link course-enquire" data-course="Biology" type="button">Enquire about course <span>↗</span></button>
+          </article>
+          <article class="course-card" data-subject="language" data-level="primary secondary higher">
+            <div class="course-icon icon-purple">Aa</div><span class="course-tag">LANGUAGES</span><h3>English</h3><p>Practice reading, writing, grammar, and communication at an appropriate level.</p><div class="course-meta"><span>Primary to higher secondary</span><span>Fee on enquiry</span></div><button class="text-link course-enquire" data-course="English" type="button">Enquire about course <span>↗</span></button>
+          </article>
+          <article class="course-card" data-subject="technology" data-level="secondary higher">
+            <div class="course-icon icon-blue">⌘</div><span class="course-tag">TECHNOLOGY</span><h3>Computer Science</h3><p>Explore computing fundamentals, logical thinking, and relevant course topics.</p><div class="course-meta"><span>Secondary / Higher secondary</span><span>Fee on enquiry</span></div><button class="text-link course-enquire" data-course="Computer Science" type="button">Enquire about course <span>↗</span></button>
+          </article>
+          <article class="course-card" data-subject="support" data-level="primary">
+            <div class="course-icon icon-orange">✎</div><span class="course-tag">SCHOOL SUPPORT</span><h3>Primary-Level Tuition</h3><p>Ask about subject support and study routines for primary-level learners.</p><div class="course-meta"><span>Primary</span><span>Fee on enquiry</span></div><button class="text-link course-enquire" data-course="Primary-Level Tuition" type="button">Enquire about course <span>↗</span></button>
+          </article>
+          <article class="course-card" data-subject="exam" data-level="all-levels">
+            <div class="course-icon icon-green">◎</div><span class="course-tag">TEST PREPARATION</span><h3>Test Preparation</h3><p>Discuss your exam goals and ask about preparation support for your target test.</p><div class="course-meta"><span>Confirm level and test</span><span>Fee on enquiry</span></div><button class="text-link course-enquire" data-course="Test Preparation" type="button">Enquire about course <span>↗</span></button>
+          </article>
+          <article class="course-card" data-subject="support" data-level="secondary">
+            <div class="course-icon icon-purple">▤</div><span class="course-tag">SCHOOL SUPPORT</span><h3>Secondary-Level Tuition</h3><p>Explore extra learning support for school subjects and current class topics.</p><div class="course-meta"><span>Secondary</span><span>Fee on enquiry</span></div><button class="text-link course-enquire" data-course="Secondary-Level Tuition" type="button">Enquire about course <span>↗</span></button>
+          </article>
+        </div>
+        <p class="empty-state" id="empty-state" hidden>No courses match those filters. Try another subject or level.</p>
+        <p class="disclaimer">Course cards are illustrative options, not a guarantee that every subject or level is currently offered. Please enquire to confirm.</p>
+      </div>
+    </section>
+
+    <section class="section approach-section" id="about">
+      <div class="container approach-grid">
+        <div class="approach-visual"><img src="assets/study-books.svg" alt="Illustration of open books, a pencil, and a plant"><span class="visual-caption">A little progress, every day.</span></div>
+        <div class="approach-copy"><span class="eyebrow">OUR APPROACH</span><h2>Learning that starts with a question.</h2><p>Every learner has different goals and areas they want to strengthen. We invite students and families to discuss their needs so the academy can explain which learning options may be suitable.</p>
+          <div class="approach-points"><div><span>01</span><div><b>Understand the goal</b><p>Tell us the subject, class level, and topics you want help with.</p></div></div><div><span>02</span><div><b>Explore suitable options</b><p>Ask about teaching format, schedules, and available courses.</p></div></div><div><span>03</span><div><b>Confirm the details</b><p>Review availability and fees with the academy before enrolling.</p></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section teachers-section" id="teachers">
+      <div class="container">
+        <div class="section-heading"><div><span class="eyebrow">TEACHING TEAM</span><h2>Meet your learning guides.</h2></div><p>Teacher names, photographs, subjects, and verified qualifications can be added here once supplied by the academy.</p></div>
+        <div class="teacher-placeholder"><div class="teacher-avatar">✦</div><div><span class="course-tag">TEACHER PROFILES</span><h3>Personal guidance, with the right information.</h3><p>Contact us to ask which teacher or tutor may be available for your chosen subject and level. Verified staff profiles will be published here when details are provided.</p></div><a href="#enquiry" class="btn btn-secondary">Ask about teachers <span>→</span></a></div>
+      </div>
+    </section>
+
+    <section class="section timetable-section" id="timetable">
+      <div class="container timetable-grid">
+        <div><span class="eyebrow">TIMETABLE & FEES</span><h2>Plan around your schedule.</h2><p>Class timings and fees depend on the course and current availability. Send an enquiry with your preferred schedule to receive confirmed details.</p><a href="#enquiry" class="btn btn-primary">Ask about timings <span>→</span></a></div>
+        <div class="schedule-card"><div class="schedule-head"><div><span class="course-tag">CLASS INFORMATION</span><h3>What to confirm</h3></div><span class="calendar-icon">▦</span></div><div class="schedule-row"><span class="schedule-number">01</span><div><b>Available days</b><small>Ask which weekdays or weekends are offered.</small></div><span class="status-pill">On enquiry</span></div><div class="schedule-row"><span class="schedule-number">02</span><div><b>Class timings</b><small>Share your preferred time window.</small></div><span class="status-pill">On enquiry</span></div><div class="schedule-row"><span class="schedule-number">03</span><div><b>Course fees</b><small>Request the fee for your selected subject.</small></div><span class="status-pill">On enquiry</span></div><div class="schedule-row"><span class="schedule-number">04</span><div><b>Learning mode</b><small>Confirm in-person or online availability.</small></div><span class="status-pill">On enquiry</span></div></div>
+      </div>
+    </section>
+
+    <section class="section enquiry-section" id="enquiry">
+      <div class="container enquiry-grid">
+        <div class="enquiry-copy"><span class="eyebrow eyebrow-light">LET'S TALK LEARNING</span><h2>Take the next step.</h2><p>Tell us what you're looking for. Your message will be prepared for WhatsApp so the academy can follow up with course details.</p>
+          <div class="contact-lines"><a href="tel:+923266438812"><span class="contact-symbol">☎</span><span><small>Call / WhatsApp</small><b>+92 326 6438812</b></span></a><a href="https://wa.me/923266438812" target="_blank" rel="noopener noreferrer"><span class="contact-symbol">↗</span><span><small>Message us directly</small><b>Open WhatsApp</b></span></a></div>
+          <div class="privacy-note"><span>ⓘ</span><p>Submitting this form opens WhatsApp with your message. It does not confirm enrollment. The academy must confirm availability, timings, and fees.</p></div>
+        </div>
+        <form id="enquiry-form" class="enquiry-form">
+          <div class="form-heading"><div><span class="course-tag">CLASS ENQUIRY</span><h3>Tell us a little about your needs</h3></div><span class="form-step">01 / 01</span></div>
+          <div class="form-grid">
+            <div class="field"><label for="name">Student or parent name <span>*</span></label><input id="name" name="name" autocomplete="name" required placeholder="Your full name"></div>
+            <div class="field"><label for="phone">Contact telephone <span>*</span></label><input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="e.g. 03XX XXXXXXX"></div>
+            <div class="field"><label for="email">Email address <small>(optional)</small></label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com"></div>
+            <div class="field"><label for="course">Subject or course <span>*</span></label><select id="course" name="course" required><option value="">Select a course</option><option>Mathematics</option><option>Physics</option><option>Chemistry</option><option>Biology</option><option>English</option><option>Computer Science</option><option>Accounting</option><option>Test Preparation</option><option>Primary-Level Tuition</option><option>Secondary-Level Tuition</option><option>Other / not sure yet</option></select></div>
+            <div class="field"><label for="level">Class or grade level <span>*</span></label><select id="level" name="level" required><option value="">Select a level</option><option>Primary</option><option>Secondary</option><option>Higher secondary</option><option>Other / not sure</option></select></div>
+            <div class="field"><label for="mode">Preferred learning mode</label><select id="mode" name="mode"><option value="Not sure yet">Not sure yet</option><option value="In-person">In-person (if offered)</option><option value="Online">Online (if offered)</option></select></div>
+            <div class="field field-full"><label for="schedule">Preferred schedule</label><input id="schedule" name="schedule" placeholder="e.g. weekday afternoons, weekends"></div>
+            <div class="field field-full"><label for="message">Additional questions</label><textarea id="message" name="message" rows="3" placeholder="Anything else you'd like us to know?"></textarea></div>
+          </div>
+          <p class="form-error" id="form-error" role="alert" hidden>Please complete the required fields and check your contact details.</p>
+          <button class="btn btn-primary submit-btn" type="submit">Continue to WhatsApp <span>↗</span></button>
+          <p class="form-footnote">Your details are included in the WhatsApp message you choose to send.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-main">
+      <div class="footer-brand-col"><a class="brand brand-footer" href="#home"><span class="brand-mark">B<span>+</span></span><span class="brand-name">BrightPath <small>Tuition Academy</small></span></a><p>Explore learning options and find out what may work for your educational goals.</p></div>
+      <div><h4>Explore</h4><a href="#courses">Courses</a><a href="#teachers">Teachers</a><a href="#timetable">Timetable</a><a href="#about">Our approach</a></div>
+      <div><h4>Get in touch</h4><a href="tel:+923266438812">+92 326 6438812</a><a href="https://wa.me/923266438812" target="_blank" rel="noopener noreferrer">WhatsApp</a><a href="#enquiry">Class enquiry</a><p class="footer-small">Address and opening hours: please confirm with the academy.</p></div>
+      <div><h4>Quick enquiry</h4><p>Have a subject or schedule in mind?</p><a class="footer-link" href="#enquiry">Tell us what you need <span>↗</span></a></div>
+    </div>
+    <div class="footer-bottom"><div class="container footer-bottom-inner"><span>© <span id="current-year"></span> BrightPath Tuition Academy</span><span>Made for curious minds <b>✦</b></span></div></div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

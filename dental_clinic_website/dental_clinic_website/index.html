@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore dental services, meet the clinic team, and request an appointment with our dental clinic.">
+  <meta name="theme-color" content="#0d9488">
+  <title>BrightCare Dental Clinic | Professional Dental Care</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="BrightCare Dental Clinic home">
+        <span class="brand-icon" aria-hidden="true">✚</span>
+        <span class="brand-copy"><strong data-clinic="name">BrightCare Dental</strong><small>CLINIC</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#home">Home</a><a href="#treatments">Treatments</a><a href="#team">Our Team</a>
+        <a href="#about">About</a><a href="#faqs">FAQs</a><a href="#contact">Contact</a>
+        <a class="nav-cta" href="#appointment">Book an Appointment</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> CARE FOR EVERY SMILE</span>
+          <h1>Your Smile Deserves <span>Professional Care</span></h1>
+          <p>Explore our dental services and contact our team to discuss your appointment.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#appointment">Book an Appointment <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="#treatments">Explore Treatments <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note"><span class="note-icon" aria-hidden="true">✓</span><span>Friendly guidance, clear communication, and care tailored to your needs.</span></div>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/clinic-hero.svg" alt="Illustration of a bright, modern dental treatment room" width="760" height="620">
+          <div class="hero-float"><span class="float-icon">✦</span><div><strong>Care starts with a conversation</strong><small>Ask our team about your options</small></div></div>
+          <div class="hero-stamp" aria-hidden="true"><span>YOUR</span><strong>SMILE</strong><span>MATTERS</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom container">
+        <div><span class="mini-icon">◷</span><span>Appointment requests welcome</span></div>
+        <div><span class="mini-icon">♡</span><span>Patient-focused communication</span></div>
+        <div><span class="mini-icon">⌖</span><span>Contact us for directions</span></div>
+      </div>
+    </section>
+
+    <section class="section treatments-section" id="treatments">
+      <div class="container">
+        <div class="section-heading centered">
+          <span class="eyebrow">OUR SERVICES</span>
+          <h2>Dental care for your <span>everyday needs</span></h2>
+          <p>Explore the services below and enquire with our clinic about availability and suitability.</p>
+        </div>
+        <div class="service-grid" id="serviceGrid">
+          <article class="service-card"><div class="service-image"><img src="assets/service-checkup.svg" alt="Dental check-up equipment illustration" loading="lazy"></div><div class="service-content"><span class="service-number">01</span><h3>Dental Check-ups</h3><p>Discuss your oral health and ask our team about routine examination appointments.</p><button class="text-link enquire-service" data-service="Dental Check-ups">Enquire about this service <span>↗</span></button></div></article>
+          <article class="service-card"><div class="service-image"><img src="assets/service-cleaning.svg" alt="Dental cleaning tools illustration" loading="lazy"></div><div class="service-content"><span class="service-number">02</span><h3>Teeth Cleaning</h3><p>Ask about professional cleaning and what to expect at a cleaning visit.</p><button class="text-link enquire-service" data-service="Teeth Cleaning">Enquire about this service <span>↗</span></button></div></article>
+          <article class="service-card"><div class="service-image"><img src="assets/service-general.svg" alt="Dental mirror and tooth illustration" loading="lazy"></div><div class="service-content"><span class="service-number">03</span><h3>General Dentistry</h3><p>Contact the clinic to discuss general dental concerns and available appointments.</p><button class="text-link enquire-service" data-service="General Dentistry">Enquire about this service <span>↗</span></button></div></article>
+          <article class="service-card"><div class="service-image"><img src="assets/service-whitening.svg" alt="Bright smile and tooth illustration" loading="lazy"></div><div class="service-content"><span class="service-number">04</span><h3>Teeth Whitening</h3><p>Ask the dental team whether whitening options are offered and suitable for you.</p><button class="text-link enquire-service" data-service="Teeth Whitening">Enquire about this service <span>↗</span></button></div></article>
+          <article class="service-card"><div class="service-image"><img src="assets/service-filling.svg" alt="Tooth restoration illustration" loading="lazy"></div><div class="service-content"><span class="service-number">05</span><h3>Dental Fillings</h3><p>Enquire about assessment and restorative treatment options for damaged teeth.</p><button class="text-link enquire-service" data-service="Dental Fillings">Enquire about this service <span>↗</span></button></div></article>
+          <article class="service-card"><div class="service-image"><img src="assets/service-consult.svg" alt="Dentist consultation illustration" loading="lazy"></div><div class="service-content"><span class="service-number">06</span><h3>Dental Consultation</h3><p>Arrange a conversation with the clinic about your concerns and possible next steps.</p><button class="text-link enquire-service" data-service="Dental Consultation">Enquire about this service <span>↗</span></button></div></article>
+        </div>
+        <p class="service-disclaimer">These are example service listings. Before publishing, remove any service your clinic does not provide and confirm all service descriptions.</p>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <img src="assets/clinic-interior.svg" alt="Illustration of a welcoming dental clinic reception" loading="lazy" width="700" height="620">
+          <div class="about-tag"><span>✦</span><div><strong>A welcoming space</strong><small>Learn about our clinic</small></div></div>
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow">ABOUT OUR CLINIC</span>
+          <h2>A thoughtful approach to <span>dental care</span></h2>
+          <p>We believe a good dental visit begins with listening. Our team can explain appointment options, answer general questions, and help you understand the next steps for your visit.</p>
+          <div class="about-points">
+            <div><span class="check">✓</span><div><strong>Clear communication</strong><p>Ask questions and discuss your concerns with the clinic team.</p></div></div>
+            <div><span class="check">✓</span><div><strong>Appointments by request</strong><p>Send your preferred date and time for the team to review.</p></div></div>
+            <div><span class="check">✓</span><div><strong>Information before your visit</strong><p>Contact us to confirm service availability, fees, and opening hours.</p></div></div>
+          </div>
+          <a class="button button-primary" href="#appointment">Request an Appointment <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team-section" id="team">
+      <div class="container">
+        <div class="section-heading centered">
+          <span class="eyebrow">OUR TEAM</span>
+          <h2>Meet the people behind <span>your care</span></h2>
+          <p>Replace these placeholders with the clinic's real team members and verified details before publishing.</p>
+        </div>
+        <div class="team-grid">
+          <article class="team-card"><img src="assets/dentist-placeholder.svg" alt="Neutral placeholder illustration for a dentist profile" loading="lazy"><div class="team-info"><span class="team-label">DENTAL PROFESSIONAL</span><h3>Clinic Dentist</h3><p>Verified qualification and professional details to be added by the clinic.</p></div></article>
+          <article class="team-card"><img src="assets/dentist-placeholder.svg" alt="Neutral placeholder illustration for a dental team member profile" loading="lazy"><div class="team-info"><span class="team-label">CLINIC TEAM</span><h3>Dental Team Member</h3><p>Add a real name, role, photograph, and verified credentials here.</p></div></article>
+          <article class="team-card"><img src="assets/dentist-placeholder.svg" alt="Neutral placeholder illustration for a clinic staff profile" loading="lazy"><div class="team-info"><span class="team-label">PATIENT SUPPORT</span><h3>Patient Coordinator</h3><p>Add this profile only if the role exists at your clinic.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section appointment-section" id="appointment">
+      <div class="container appointment-grid">
+        <div class="appointment-copy">
+          <span class="eyebrow eyebrow-light">LET'S GET YOU STARTED</span>
+          <h2>Request your <span>appointment</span></h2>
+          <p>Share your preferred details and we'll open WhatsApp with your request. The clinic must reply to confirm your appointment.</p>
+          <div class="appointment-help"><span class="help-icon">ⓘ</span><p><strong>Please note</strong><br>This form sends a request only. Your appointment is not confirmed until the clinic responds.</p></div>
+          <div class="contact-mini"><span class="contact-mini-icon">◷</span><div><strong>Need help first?</strong><p>Contact the clinic directly to discuss available times.</p><a href="https://wa.me/923266438812" target="_blank" rel="noopener">Chat on WhatsApp ↗</a></div></div>
+        </div>
+        <form class="appointment-form" id="appointmentForm">
+          <div class="form-heading"><div><span class="eyebrow">APPOINTMENT REQUEST</span><h3>Tell us what works for you</h3></div><span class="form-step">01 <i>/</i> 01</span></div>
+          <div class="form-grid">
+            <div class="field"><label for="patientName">Patient name <span>*</span></label><input id="patientName" name="patientName" type="text" autocomplete="name" placeholder="Your full name" required maxlength="100"></div>
+            <div class="field"><label for="phone">Contact number <span>*</span></label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+92 300 1234567" required maxlength="30"></div>
+            <div class="field"><label for="email">Email address <small>(optional)</small></label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" maxlength="120"></div>
+            <div class="field"><label for="service">Dental service <span>*</span></label><select id="service" name="service" required><option value="">Choose a service</option><option>Dental Check-ups</option><option>Teeth Cleaning</option><option>General Dentistry</option><option>Teeth Whitening</option><option>Dental Fillings</option><option>Dental Consultation</option><option>Other / Not sure</option></select></div>
+            <div class="field"><label for="date">Preferred date <span>*</span></label><input id="date" name="date" type="date" required></div>
+            <div class="field"><label for="time">Preferred time <span>*</span></label><select id="time" name="time" required><option value="">Choose a time</option><option>Morning</option><option>Afternoon</option><option>Evening</option><option>Flexible</option></select></div>
+            <div class="field"><label for="patientType">Patient type <small>(optional)</small></label><select id="patientType" name="patientType"><option value="">Choose one</option><option>New patient</option><option>Existing patient</option></select></div>
+            <div class="field field-full"><label for="notes">Additional notes <small>(optional — please don't include sensitive medical details)</small></label><textarea id="notes" name="notes" rows="3" maxlength="500" placeholder="Anything practical you'd like the clinic to know?"></textarea></div>
+          </div>
+          <p class="form-error" id="formError" role="alert" aria-live="polite"></p>
+          <button class="button button-primary form-submit" type="submit">Send Request via WhatsApp <span aria-hidden="true">↗</span></button>
+          <p class="form-privacy">Your WhatsApp app will open with the request text for you to review and send.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faqs">
+      <div class="container faq-grid">
+        <div class="section-heading faq-intro"><span class="eyebrow">HAVE QUESTIONS?</span><h2>Helpful answers, <span>before you visit</span></h2><p>These general answers should be reviewed and approved by your clinic before publishing.</p><a class="text-link" href="#contact">Still have a question? Contact us <span>↗</span></a></div>
+        <div class="faq-list">
+          <details><summary>How do I request an appointment?<span>+</span></summary><p>Complete the appointment request form. It opens WhatsApp with your details so you can send them to the clinic. Wait for the clinic to respond before treating the appointment as confirmed.</p></details>
+          <details><summary>Are all listed treatments available?<span>+</span></summary><p>Service availability can vary. Please contact the clinic to confirm which treatments are offered before booking.</p></details>
+          <details><summary>Can I ask about fees before booking?<span>+</span></summary><p>Yes. Contact the clinic to ask about consultation fees, treatment costs, and any other charges relevant to your visit.</p></details>
+          <details><summary>What if I need urgent dental help?<span>+</span></summary><p>Contact the clinic directly to ask about urgent availability. If you have a serious or rapidly worsening medical emergency, seek urgent local medical care.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-heading centered"><span class="eyebrow">CONTACT US</span><h2>Let's help you plan <span>your visit</span></h2><p>Replace the sample details below with your clinic's verified contact information.</p></div>
+        <div class="contact-grid">
+          <div class="contact-card"><span class="contact-icon">⌖</span><h3>Visit the clinic</h3><p data-clinic="address">Add your clinic's full street address</p><a id="mapsLink" href="https://www.google.com/maps/search/?api=1&query=dental+clinic" target="_blank" rel="noopener">Get directions ↗</a></div>
+          <div class="contact-card"><span class="contact-icon">☎</span><h3>Call or message</h3><p><a data-clinic-link="phone" href="tel:+923266438812">+92 326 6438812</a></p><a href="https://wa.me/923266438812" target="_blank" rel="noopener">WhatsApp the clinic ↗</a></div>
+          <div class="contact-card"><span class="contact-icon">◷</span><h3>Opening hours</h3><p data-clinic="hours">Add verified opening hours</p><a href="#appointment">Request a time ↗</a></div>
+          <div class="contact-card"><span class="contact-icon">✉</span><h3>Email us</h3><p><a data-clinic-link="email" href="mailto:hello@example.com">hello@example.com</a></p><a data-clinic-link="email" href="mailto:hello@example.com">Send an email ↗</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand brand-footer" href="#home"><span class="brand-icon" aria-hidden="true">✚</span><span class="brand-copy"><strong data-clinic="name">BrightCare Dental</strong><small>CLINIC</small></span></a>
+      <p>Professional dental care begins with clear information and a conversation.</p>
+      <a class="footer-top" href="#home">Back to top ↑</a>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> <span data-clinic="name">BrightCare Dental</span>. All rights reserved.</span><span>Information on this website is general and does not replace professional dental advice.</span></div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/923266438812" target="_blank" rel="noopener" aria-label="Chat with the clinic on WhatsApp"><span aria-hidden="true">◉</span><span class="whatsapp-label">WhatsApp</span></a>
+  <script src="script.js"></script>
+</body>
+</html>

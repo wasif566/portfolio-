@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-label="Dental clinic illustration">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eff8fa"/><stop offset="1" stop-color="#f8fcfd"/></linearGradient>
+  <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#58c9bd"/><stop offset="1" stop-color="#0d9488"/></linearGradient>
+</defs>
+<rect width="800" height="620" rx="36" fill="url(#bg)"/>
+
+<rect x="86" y="78" width="628" height="446" rx="25" fill="#fff" stroke="#d8e8ec" stroke-width="5"/>
+<rect x="117" y="111" width="250" height="190" rx="12" fill="#c7edf0"/><path d="M242 111v190M117 205h250" stroke="#fff" stroke-width="10"/>
+<rect x="392" y="111" width="285" height="190" rx="12" fill="#e8f7f8"/><path d="M534 111v190M392 205h285" stroke="#fff" stroke-width="10"/>
+<rect x="117" y="324" width="560" height="162" rx="12" fill="#f0f8f9"/>
+<path d="M147 384h275v78H147z" fill="#fff" stroke="#d8e8ec" stroke-width="4"/><rect x="170" y="352" width="228" height="39" rx="9" fill="#d0e8eb"/><path d="M182 462v34M390 462v34" stroke="#90b4be" stroke-width="10" stroke-linecap="round"/>
+<rect x="462" y="348" width="178" height="114" rx="12" fill="#fff" stroke="#d8e8ec" stroke-width="4"/><rect x="485" y="370" width="132" height="13" rx="6" fill="#c8e2e6"/><rect x="485" y="393" width="98" height="9" rx="4" fill="#dcebed"/><rect x="485" y="412" width="114" height="9" rx="4" fill="#dcebed"/>
+<circle cx="177" cy="153" r="23" fill="#fff"/><path d="M177 138v30M162 153h30" stroke="#0d9488" stroke-width="6" stroke-linecap="round"/>
+<path d="M561 488v35M590 488v35M545 523h62" stroke="#91b4bd" stroke-width="9" stroke-linecap="round"/>
+<circle cx="644" cy="88" r="25" fill="#d7f4f0"/><path d="M644 73v30M629 88h30" stroke="#0d9488" stroke-width="6" stroke-linecap="round"/>
+
+</svg>

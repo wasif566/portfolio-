@@ -1,0 +1,1 @@
+Place custom SVG icons here if required. The current website uses lightweight text symbols and CSS icons.

@@ -1,0 +1,1 @@
+No video was supplied. Add a licensed .mp4 here and replace the labelled placeholder in index.html with a real <video controls preload="none" poster="assets/images/your-poster.jpg"> player. Do not show a play control unless it plays actual media.

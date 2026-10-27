@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#e7ebee"/>
+  <g fill="none" stroke="#a8b4bc" stroke-width="9" stroke-linejoin="round">
+    <path d="M260 390V220h380v170z"/><path d="M300 220v-50h300v50M300 390v55h300v-55"/>
+    <circle cx="360" cy="310" r="48"/><circle cx="540" cy="310" r="48"/><path d="M408 310h84"/>
+  </g>
+  <text x="450" y="510" font-family="Arial,sans-serif" font-size="25" fill="#667684" text-anchor="middle" letter-spacing="5">EQUIPMENT IMAGE</text>
+</svg>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111315">
+  <title>Blackline Auto | Car Rental & Chauffeur Services</title>
+  <meta name="description" content="Explore car rental and chauffeur service options. Send a rental inquiry and let our team confirm availability, rates, and terms.">
+  <meta property="og:title" content="Blackline Auto | Car Rental & Chauffeur Services">
+  <meta property="og:description" content="Find the right car for your journey. Submit a rental inquiry through WhatsApp.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topbar"><div class="container topbar-inner"><span>CAR RENTAL · CHAUFFEUR · AIRPORT TRANSFERS</span><div><a href="tel:+923266438812">+92 326 6438812</a><span class="top-sep">/</span><span>Hours: add your verified business hours</span></div></div></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Blackline Auto home"><img src="assets/logo.svg" alt="" width="42" height="42"><span><strong>BLACKLINE<span> AUTO</span></strong><small>DRIVE YOUR WAY</small></span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a><a href="#fleet">Fleet</a><a href="#services">Services</a><a href="#about">About</a><a href="#process">Rental Process</a><a href="#contact">Contact</a>
+        <a class="nav-cta" href="#booking">Find Your Car <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> YOUR JOURNEY, YOUR WAY</p>
+          <h1>Find the right car<br>for your <em>journey.</em></h1>
+          <p>Explore flexible vehicle rental options for business trips, family travel, airport transfers, and special occasions. Send us your requirements and our team will follow up.</p>
+          <div class="hero-actions"><a class="btn btn-gold" href="#fleet">Explore Our Fleet <span>↗</span></a><a class="btn btn-ghost" href="#booking">Request a Rental</a></div>
+          <div class="hero-trust"><span class="trust-line"></span><span>FLEXIBLE OPTIONS · PERSONAL SERVICE</span></div>
+        </div>
+        <div class="hero-side-note"><span>BLACKLINE</span><b>MOVE<br>WITH<br>CONFIDENCE</b><i>EST. YOUR YEAR</i></div>
+      </div>
+      <div class="hero-bottom"><div class="container hero-bottom-inner"><span>01 / DISCOVER YOUR DRIVE</span><span>Scroll to explore <b>↓</b></span></div></div>
+    </section>
+
+    <section class="fleet-section section" id="fleet">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow dark"><span></span> THE FLEET</p><h2>Choose your <em>kind of drive.</em></h2></div>
+          <p>These clearly labelled demo vehicles are visual examples only. Replace them with your actual fleet and verified specifications before publishing.</p>
+        </div>
+        <div class="demo-alert"><span>DEMO INVENTORY</span> No vehicle availability, rates, or specifications are being represented as confirmed. All cards below are sample content for design preview.</div>
+        <div class="fleet-filters" aria-label="Filter vehicles">
+          <label>Category<select id="filter-category"><option value="all">All categories</option><option value="economy">Economy</option><option value="sedan">Sedan</option><option value="suv">SUV</option><option value="family">Family</option><option value="luxury">Luxury</option><option value="van">Van / Minibus</option></select></label>
+          <label>Transmission<select id="filter-transmission"><option value="all">Any transmission</option><option value="automatic">Automatic</option><option value="manual">Manual</option><option value="unknown">Not specified</option></select></label>
+          <label>Indicative daily budget<select id="filter-price"><option value="all">Any budget</option><option value="under10000">Under PKR 10,000</option><option value="10000to25000">PKR 10,000–25,000</option><option value="over25000">Over PKR 25,000</option><option value="unpriced">Price not supplied</option></select></label>
+          <button class="filter-reset" id="reset-filters" type="button">Reset ↺</button>
+        </div>
+        <div class="fleet-grid" id="fleet-grid">
+          <article class="vehicle-card" data-category="economy" data-transmission="unknown" data-price="unpriced" data-id="DEMO-CAR-01" data-name="City Compact (sample)">
+            <div class="vehicle-image car-one"><span class="vehicle-tag">SAMPLE VEHICLE</span><span class="vehicle-category">ECONOMY</span></div>
+            <div class="vehicle-content"><div class="vehicle-title"><div><h3>City Compact</h3><p>Example economy class</p></div><span class="vehicle-number">01</span></div><div class="vehicle-specs"><span>♙ Capacity not verified</span><span>⚙ Transmission not supplied</span></div><div class="vehicle-bottom"><span class="rate">Rate on inquiry</span><button class="text-link rent-vehicle" type="button">Rent this vehicle <span>↗</span></button></div></div>
+          </article>
+          <article class="vehicle-card" data-category="sedan" data-transmission="unknown" data-price="unpriced" data-id="DEMO-CAR-02" data-name="Executive Sedan (sample)">
+            <div class="vehicle-image car-two"><span class="vehicle-tag">SAMPLE VEHICLE</span><span class="vehicle-category">SEDAN</span></div>
+            <div class="vehicle-content"><div class="vehicle-title"><div><h3>Executive Sedan</h3><p>Example sedan class</p></div><span class="vehicle-number">02</span></div><div class="vehicle-specs"><span>♙ Capacity not verified</span><span>⚙ Transmission not supplied</span></div><div class="vehicle-bottom"><span class="rate">Rate on inquiry</span><button class="text-link rent-vehicle" type="button">Rent this vehicle <span>↗</span></button></div></div>
+          </article>
+          <article class="vehicle-card" data-category="suv" data-transmission="unknown" data-price="unpriced" data-id="DEMO-CAR-03" data-name="Premium SUV (sample)">
+            <div class="vehicle-image car-three"><span class="vehicle-tag">SAMPLE VEHICLE</span><span class="vehicle-category">SUV</span></div>
+            <div class="vehicle-content"><div class="vehicle-title"><div><h3>Premium SUV</h3><p>Example SUV class</p></div><span class="vehicle-number">03</span></div><div class="vehicle-specs"><span>♙ Capacity not verified</span><span>⚙ Transmission not supplied</span></div><div class="vehicle-bottom"><span class="rate">Rate on inquiry</span><button class="text-link rent-vehicle" type="button">Rent this vehicle <span>↗</span></button></div></div>
+          </article>
+          <article class="vehicle-card" data-category="family" data-transmission="unknown" data-price="unpriced" data-id="DEMO-CAR-04" data-name="Family People Carrier (sample)">
+            <div class="vehicle-image car-four"><span class="vehicle-tag">SAMPLE VEHICLE</span><span class="vehicle-category">FAMILY</span></div>
+            <div class="vehicle-content"><div class="vehicle-title"><div><h3>Family People Carrier</h3><p>Example family class</p></div><span class="vehicle-number">04</span></div><div class="vehicle-specs"><span>♙ Capacity not verified</span><span>⚙ Transmission not supplied</span></div><div class="vehicle-bottom"><span class="rate">Rate on inquiry</span><button class="text-link rent-vehicle" type="button">Rent this vehicle <span>↗</span></button></div></div>
+          </article>
+          <article class="vehicle-card" data-category="luxury" data-transmission="unknown" data-price="unpriced" data-id="DEMO-CAR-05" data-name="Luxury Grand Tourer (sample)">
+            <div class="vehicle-image car-five"><span class="vehicle-tag">SAMPLE VEHICLE</span><span class="vehicle-category">LUXURY</span></div>
+            <div class="vehicle-content"><div class="vehicle-title"><div><h3>Luxury Grand Tourer</h3><p>Example premium class</p></div><span class="vehicle-number">05</span></div><div class="vehicle-specs"><span>♙ Capacity not verified</span><span>⚙ Transmission not supplied</span></div><div class="vehicle-bottom"><span class="rate">Rate on inquiry</span><button class="text-link rent-vehicle" type="button">Rent this vehicle <span>↗</span></button></div></div>
+          </article>
+          <article class="vehicle-card" data-category="van" data-transmission="unknown" data-price="unpriced" data-id="DEMO-CAR-06" data-name="Passenger Van (sample)">
+            <div class="vehicle-image car-six"><span class="vehicle-tag">SAMPLE VEHICLE</span><span class="vehicle-category">VAN / MINIBUS</span></div>
+            <div class="vehicle-content"><div class="vehicle-title"><div><h3>Passenger Van</h3><p>Example van class</p></div><span class="vehicle-number">06</span></div><div class="vehicle-specs"><span>♙ Capacity not verified</span><span>⚙ Transmission not supplied</span></div><div class="vehicle-bottom"><span class="rate">Rate on inquiry</span><button class="text-link rent-vehicle" type="button">Rent this vehicle <span>↗</span></button></div></div>
+          </article>
+        </div>
+        <p id="empty-state" class="empty-state" hidden>No sample vehicles match those filters. Try another selection.</p>
+      </div>
+    </section>
+
+    <section class="services-section section" id="services">
+      <div class="container">
+        <div class="section-heading light-heading"><div><p class="eyebrow"><span></span> RENTAL OPTIONS</p><h2>Make the journey<br><em>work for you.</em></h2></div><p>Use these service cards as editable placeholders. Keep only the services your company actually provides.</p></div>
+        <div class="services-grid">
+          <article class="service-card"><span>01</span><div class="service-icon">◷</div><h3>Daily Rental</h3><p>Ask about short-term rental options and the applicable terms.</p><a href="#booking">Ask about daily rental ↗</a></article>
+          <article class="service-card"><span>02</span><div class="service-icon">▦</div><h3>Weekly & Monthly</h3><p>Share your dates and needs to request a longer-term quote.</p><a href="#booking">Request a quote ↗</a></article>
+          <article class="service-card"><span>03</span><div class="service-icon">♧</div><h3>Chauffeur-Driven</h3><p>Ask whether a driver is available for your preferred itinerary.</p><a href="#booking">Discuss your trip ↗</a></article>
+          <article class="service-card"><span>04</span><div class="service-icon">✈</div><h3>Airport Transfers</h3><p>Send your pickup time, destination, and passenger requirements.</p><a href="#booking">Plan a transfer ↗</a></article>
+          <article class="service-card"><span>05</span><div class="service-icon">▤</div><h3>Corporate Hire</h3><p>Discuss business travel requirements and possible arrangements.</p><a href="#booking">Discuss corporate hire ↗</a></article>
+          <article class="service-card"><span>06</span><div class="service-icon">◇</div><h3>Events & Family Trips</h3><p>Tell us about your group size, journey, and timing.</p><a href="#booking">Plan your journey ↗</a></article>
+        </div>
+        <p class="service-disclaimer">Service examples only. Confirm your actual service menu, rental conditions, and coverage before publishing.</p>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="container about-grid">
+        <div class="about-photo-wrap"><div class="about-photo"></div><div class="about-caption"><strong>Your journey matters.</strong><span>Service starts with listening.</span></div></div>
+        <div class="about-copy"><p class="eyebrow dark"><span></span> ABOUT BLACKLINE</p><h2>More than a ride.<br><em>A smoother journey.</em></h2><p>Blackline Auto is a demo brand for this website template. Replace this section with your real company story, operating area, fleet details, and service commitments.</p><div class="about-points"><div><b>01</b><p><strong>Clear communication</strong><small>Rental terms and costs should be confirmed before travel.</small></p></div><div><b>02</b><p><strong>Options for your needs</strong><small>Share passenger, luggage, timing, and route requirements.</small></p></div><div><b>03</b><p><strong>Confirmation before travel</strong><small>All requests are inquiries until the company confirms details.</small></p></div></div><a class="btn btn-dark" href="#booking">Request a Rental <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="process-section section" id="process">
+      <div class="container"><div class="section-heading"><div><p class="eyebrow dark"><span></span> HOW IT WORKS</p><h2>Three steps to <em>get started.</em></h2></div><p>A simple inquiry process. A submitted request does not reserve a vehicle or confirm a price.</p></div>
+        <div class="process-grid"><article><span>01</span><h3>Share your plans</h3><p>Choose a vehicle category and enter your pickup, return, and journey details.</p></article><article><span>02</span><h3>Send your inquiry</h3><p>Review the generated WhatsApp message and send it to our business number.</p></article><article><span>03</span><h3>Confirm the details</h3><p>Wait for the company to confirm vehicle availability, pricing, and rental terms.</p></article></div>
+      </div>
+    </section>
+
+    <section class="booking-section section" id="booking">
+      <div class="container booking-grid">
+        <div class="booking-copy"><p class="eyebrow"><span></span> RENTAL REQUEST</p><h2>Where will<br>the road <em>take you?</em></h2><p>Tell us the details of your trip. Your request opens in WhatsApp so you can review and send it. A booking is not confirmed until the company confirms availability, pricing, and terms.</p><div class="whatsapp-contact"><span>↗</span><div><small>WHATSAPP INQUIRIES</small><strong>+92 326 6438812</strong></div></div></div>
+        <form id="rental-form" class="rental-form">
+          <div class="form-top"><strong>PLAN YOUR RENTAL</strong><small>* Required fields</small></div>
+          <div class="form-row"><label for="name">Full name *</label><input id="name" name="name" autocomplete="name" required placeholder="Your full name"></div>
+          <div class="form-row two-cols"><div><label for="phone">Contact number *</label><input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="+92 ..."></div><div><label for="email">Email (optional)</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com"></div></div>
+          <div class="form-row two-cols"><div><label for="vehicle">Selected vehicle *</label><select id="vehicle" name="vehicle" required><option value="">Choose a vehicle</option><option>City Compact (DEMO-CAR-01 — sample)</option><option>Executive Sedan (DEMO-CAR-02 — sample)</option><option>Premium SUV (DEMO-CAR-03 — sample)</option><option>Family People Carrier (DEMO-CAR-04 — sample)</option><option>Luxury Grand Tourer (DEMO-CAR-05 — sample)</option><option>Passenger Van (DEMO-CAR-06 — sample)</option><option>Vehicle category to be advised</option></select></div><div><label for="rental-type">Rental type *</label><select id="rental-type" name="rentalType" required><option value="">Choose type</option><option>Daily</option><option>Weekly</option><option>Monthly</option><option>Airport transfer</option><option>Chauffeur-driven trip</option><option>Corporate hire</option><option>Event / family travel</option><option>Other / discuss</option></select></div></div>
+          <div class="form-row two-cols"><div><label for="pickup">Pickup location *</label><input id="pickup" name="pickup" required placeholder="City, airport, or address"></div><div><label for="dropoff">Drop-off location</label><input id="dropoff" name="dropoff" placeholder="Destination, if different"></div></div>
+          <div class="form-row two-cols"><div><label for="pickup-date">Pickup date *</label><input id="pickup-date" name="pickupDate" type="date" required></div><div><label for="pickup-time">Pickup time *</label><input id="pickup-time" name="pickupTime" type="time" required></div></div>
+          <div class="form-row two-cols"><div><label for="return-date">Return date *</label><input id="return-date" name="returnDate" type="date" required></div><div><label for="return-time">Return time *</label><input id="return-time" name="returnTime" type="time" required></div></div>
+          <div class="form-row"><label for="driver">Driver preference *</label><select id="driver" name="driver" required><option value="">Choose preference</option><option>Self-drive (subject to company terms)</option><option>Chauffeur / driver requested</option><option>Need advice / not sure</option></select></div>
+          <div class="form-row"><label for="requirements">Additional requirements</label><textarea id="requirements" name="requirements" rows="3" placeholder="Passengers, luggage, route, or other requirements"></textarea></div>
+          <button class="btn btn-gold submit-btn" type="submit">Prepare WhatsApp Inquiry <span>↗</span></button>
+          <p class="form-note">This form prepares a WhatsApp message only. Availability, final price, driver options, insurance, and rental terms must be confirmed by the company.</p><p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-grid"><div><p class="eyebrow dark"><span></span> CONTACT</p><h2>Let's plan your<br><em>next journey.</em></h2><p class="contact-intro">Contact us with your questions or rental requirements. Replace the sample email, address, and business hours below with verified details.</p><a class="contact-phone" href="tel:+923266438812">+92 326 6438812 ↗</a><a class="contact-email" href="mailto:hello@example.com">hello@example.com</a><div class="contact-details"><div><small>OFFICE ADDRESS</small><p>Replace with your verified business address</p></div><div><small>BUSINESS HOURS</small><p>Add actual opening hours here</p></div></div><a class="text-link" href="https://wa.me/923266438812" target="_blank" rel="noopener">Chat on WhatsApp ↗</a></div>
+        <div class="contact-visual"><div class="contact-car"></div><div class="contact-card"><span>BLACKLINE AUTO</span><strong>Ready when<br>your plans are.</strong><a href="https://www.google.com/maps/search/?api=1&query=Pakistan" target="_blank" rel="noopener">Find directions after adding your address ↗</a></div></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><a class="brand brand-light" href="#home"><img src="assets/logo.svg" alt="" width="42" height="42"><span><strong>BLACKLINE<span> AUTO</span></strong><small>DRIVE YOUR WAY</small></span></a><p>Make room for the journey ahead.</p><a href="#home" class="back-top">Back to top ↑</a></div><div class="container footer-bottom"><span>© <span id="year"></span> Blackline Auto. Demo template — verify all business details before publishing.</span><span>Rental inquiries are not confirmed reservations.</span></div></footer>
+  <a class="floating-whatsapp" href="https://wa.me/923266438812" target="_blank" rel="noopener" aria-label="Contact Blackline Auto on WhatsApp">◉</a>
+</body>
+</html>

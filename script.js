@@ -40,16 +40,16 @@ const PROJECT_LINKS = {
   "hair-salon": ""
 };
 
-const PROJECT_LINKS = {
-  restaurant: "", textile: "", dental: "", beauty: "", "real-estate": "",
-  "wedding-halls": "", "clothing-boutique": "", "private-schools": "", tuition: "",
-  taxi: "", "car-rental": "", solar: "", furniture: "", "wedding-photo": "",
-  bakery: "", "auto-repair": "", gym: "", machinery: "", "diagnostic-lab": "",
-  "plumbers-electricians": "", "cleaning-services": "", painters: "", "car-wash": "",
-  "event-planners": "", landscaping: "", handyman: "", "carpet-cleaning": "", moving: "",
-  roofing: "", repair: "", travel: "", "photo-video": "", "window-cleaning": "",
-  renovation: "", "hair-salon": ""
-};
+// const PROJECT_LINKS = {
+//   restaurant: "", textile: "", dental: "", beauty: "", "real-estate": "",
+//   "wedding-halls": "", "clothing-boutique": "", "private-schools": "", tuition: "",
+//   taxi: "", "car-rental": "", solar: "", furniture: "", "wedding-photo": "",
+//   bakery: "", "auto-repair": "", gym: "", machinery: "", "diagnostic-lab": "",
+//   "plumbers-electricians": "", "cleaning-services": "", painters: "", "car-wash": "",
+//   "event-planners": "", landscaping: "", handyman: "", "carpet-cleaning": "", moving: "",
+//   roofing: "", repair: "", travel: "", "photo-video": "", "window-cleaning": "",
+//   renovation: "", "hair-salon": ""
+// };
 
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector("#nav");

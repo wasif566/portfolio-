@@ -1,60 +1,45 @@
 
-const projectLinks = {
-  "restaurant": "https://creativestudio.click/restaurant_takeaway_website/",
-  "textile": "https://creativestudio.click/textile_manufacturer_website/",
-  "dental": "https://creativestudio.click/dental_clinic_website/",
-  "beauty": "https://creativestudio.click/beauty_studio_website/",
+/* Wasif Creative Studio — add each hosted website URL to PROJECT_LINKS. */
+const WHATSAPP_NUMBER = "923266438812";
+
+const PROJECT_LINKS = {
+  restaurant: "https://creativestudio.click/restaurant_takeaway_website/",
+  textile: "https://creativestudio.click/textile_manufacturer_website/",
+  dental: "https://creativestudio.click/dental_clinic_website/",
+  beauty: "https://creativestudio.click/beauty_studio_website/",
   "real-estate": "https://creativestudio.click/real_estate_agency_website/",
   "wedding-halls": "https://creativestudio.click/wedding_halls_marquees_website/",
   "clothing-boutique": "https://creativestudio.click/clothing_boutique_website/",
   "private-schools": "https://creativestudio.click/private_school_website/",
-  "tuition": "https://creativestudio.click/tuition-academy-website/",
-  "taxi": "https://creativestudio.click/taxi-airport-transfer-website/",
+  tuition: "https://creativestudio.click/tuition-academy-website/",
+  taxi: "https://creativestudio.click/taxi-airport-transfer-website/",
   "car-rental": "https://creativestudio.click/car_rental_website/",
-  "solar": "https://creativestudio.click/solar-installation-website/",
-  "furniture": "https://creativestudio.click/furniture_shop_website/",
+  solar: "",
+  furniture: "https://creativestudio.click/furniture_shop_website/",
   "wedding-photo": "https://creativestudio.click/wedding_photography_planner_website/",
-  "bakery": "https://creativestudio.click/bakery_website/",
+  bakery: "https://creativestudio.click/bakery_website/",
   "auto-repair": "https://creativestudio.click/auto-repair-website/",
-  "gym": "https://creativestudio.click/fitness-gym-website/",
-  "machinery": "https://creativestudio.click/machinery_supplier_website/",
+  gym: "https://creativestudio.click/fitness-gym-website/",
+  machinery: "https://creativestudio.click/machinery_supplier_website/",
   "diagnostic-lab": "https://creativestudio.click/diagnostic_laboratory_website/",
-  "plumbers-electricians": "https://creativestudio.click/plumbers-electricians-website/",
-  "cleaning-services": "https://creativestudio.click/cleaning-services-website/",
-  "painters": "https://creativestudio.click/painters-decorators-website/",
+  "plumbers-electricians": "",
+  "cleaning-services": "",
+  painters: "https://creativestudio.click/painters-decorators-website/",
   "car-wash": "https://creativestudio.click/car-wash-mobile-valeting-website/",
   "event-planners": "https://creativestudio.click/event-planners-decorators-website/",
-  "landscaping": "https://creativestudio.click/landscaping_gardening_website/",
-  "handyman": "https://creativestudio.click/handyman-home-repair-website/",
+  landscaping: "https://creativestudio.click/landscaping_gardening_website/",
+  handyman: "https://creativestudio.click/handyman-home-repair-website/",
   "carpet-cleaning": "https://creativestudio.click/carpet-upholstery-cleaning-website/",
-  "moving": "https://creativestudio.click/moving_removal_website/",
-  "roofing": "https://creativestudio.click/roofing_gutter_website/",
-  "repair": "https://creativestudio.click/mobile_computer_repair_website/",
-  "travel": "https://creativestudio.click/travel-agency-website/",
+  moving: "https://creativestudio.click/moving_removal_website/",
+  roofing: "https://creativestudio.click/roofing_gutter_website/",
+  repair: "https://creativestudio.click/mobile_computer_repair_website/",
+  travel: "https://creativestudio.click/travel-agency-website/",
   "photo-video": "https://creativestudio.click/photography-videography-website/",
   "window-cleaning": "https://creativestudio.click/window-cleaning-website/",
-  "renovation": "https://creativestudio.click/bathroom-kitchen-renovation-website/",
-  "hair-salon": "https://creativestudio.click/hair-salon-barbershop-website/"
+  renovation: "https://creativestudio.click/bathroom-kitchen-renovation-website/",
+  "hair-salon": ""
 };
 
-document.querySelectorAll("[data-project-link]").forEach((link) => {
-  const project = link.dataset.projectLink;
-  const url = projectLinks[project];
-
-  if (url) {
-    link.href = url;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-  }
-});
-
-
-
-
-
-
-/* Wasif Creative Studio — add each hosted website URL to PROJECT_LINKS. */
-const WHATSAPP_NUMBER = "923266438812";
 const PROJECT_LINKS = {
   restaurant: "", textile: "", dental: "", beauty: "", "real-estate": "",
   "wedding-halls": "", "clothing-boutique": "", "private-schools": "", tuition: "",

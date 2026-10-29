@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171614">
+  <meta name="description" content="Discover considered haircuts, styling and grooming. Explore services and request an appointment with our salon and barbershop.">
+  <meta property="og:title" content="FORM & FADE — Hair Salon and Barbershop">
+  <meta property="og:description" content="Your style. Your signature. Request an appointment for hair and grooming services.">
+  <meta property="og:type" content="website">
+  <title>FORM & FADE — Hair Salon & Barbershop</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="info-bar"><span>Thoughtful cuts. Personal style.</span><span>Contact us to confirm appointment availability</span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Form and Fade home">
+      <span class="brand-mark" aria-hidden="true">F<span>&</span>F</span>
+      <span class="brand-name">FORM <i>&</i> FADE<small>HAIR • GROOMING • STYLE</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#approach">Our Approach</a><a href="#gallery">Gallery</a><a href="#about">About</a><a href="#contact">Contact</a>
+      <a class="nav-cta" href="#appointment">Request an Appointment <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="Barber carefully shaping a modern haircut"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> A considered approach to grooming</p>
+        <h1 id="hero-title">Your Style.<br><em>Your Signature.</em></h1>
+        <p class="hero-copy">Professional hair and grooming services tailored to your look, preferences, and personal style.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#services">Explore Services <span aria-hidden="true">↘</span></a>
+          <a class="button button-outline" href="#appointment">Request an Appointment</a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span><span>Good style starts with a conversation.</span></div>
+      </div>
+      <div class="hero-index" aria-hidden="true">01 / STYLE, REFINED</div>
+    </section>
+
+    <section class="intro section-wrap" id="approach">
+      <div class="intro-kicker"><span class="eyebrow">THE FORM & FADE WAY</span><span class="kicker-rule"></span></div>
+      <div class="intro-main">
+        <h2>It's not just a haircut.<br><em>It's how you show up.</em></h2>
+        <p>Every great look starts with listening. Tell us what you like, how you wear your hair, and what feels like you. We’ll use that conversation to help shape a style that fits your everyday life.</p>
+      </div>
+    </section>
+
+    <section class="services section-wrap section-dark" id="services">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span></span> THE MENU</p><h2>Made for <em>your look.</em></h2></div>
+        <p>Explore our example service menu and choose what you’d like to ask us about. Service availability and prices are confirmed directly.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="service-photo photo-cut" role="img" aria-label="Close-up of a neat modern haircut"></div>
+          <div class="service-card-body"><span class="service-number">01</span><h3>Classic Haircut</h3><p>A clean, considered cut shaped around your preferred length and finish.</p><button class="text-button select-service" type="button" data-service="Classic Haircut">Select this service <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="service-card">
+          <div class="service-photo photo-fade" role="img" aria-label="Modern tapered fade haircut"></div>
+          <div class="service-card-body"><span class="service-number">02</span><h3>Fade & Taper</h3><p>From a subtle taper to a sharper fade, with attention to the details.</p><button class="text-button select-service" type="button" data-service="Fade & Taper">Select this service <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="service-card">
+          <div class="service-photo photo-beard" role="img" aria-label="Barber trimming and shaping a beard"></div>
+          <div class="service-card-body"><span class="service-number">03</span><h3>Beard Grooming</h3><p>Thoughtful shaping and tidy lines to complement your face and haircut.</p><button class="text-button select-service" type="button" data-service="Beard Grooming">Select this service <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="service-card">
+          <div class="service-photo photo-style" role="img" aria-label="Styled hair with a polished finish"></div>
+          <div class="service-card-body"><span class="service-number">04</span><h3>Styling & Finish</h3><p>A polished finish for a special occasion or a little everyday confidence.</p><button class="text-button select-service" type="button" data-service="Styling & Finish">Select this service <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="service-card">
+          <div class="service-photo photo-wash" role="img" aria-label="Relaxing hair wash at a salon"></div>
+          <div class="service-card-body"><span class="service-number">05</span><h3>Wash & Care</h3><p>Refresh your hair and ask us about care options suited to your needs.</p><button class="text-button select-service" type="button" data-service="Wash & Care">Select this service <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="service-card">
+          <div class="service-photo photo-consult" role="img" aria-label="Stylist consulting with a client"></div>
+          <div class="service-card-body"><span class="service-number">06</span><h3>Style Consultation</h3><p>Talk through ideas, maintenance, and a look that feels right for you.</p><button class="text-button select-service" type="button" data-service="Style Consultation">Select this service <span aria-hidden="true">↗</span></button></div>
+        </article>
+      </div>
+      <p class="menu-disclaimer">This is a sample service menu for the website template. Replace it with services your business actually offers.</p>
+    </section>
+
+    <section class="statement">
+      <div class="statement-image" role="img" aria-label="Warm, modern salon interior"></div>
+      <div class="statement-copy"><p class="eyebrow"><span></span> YOUR LOOK, YOUR CALL</p><h2>Personal style.<br><em>No one-size-fits-all.</em></h2><p>We believe a good grooming experience should feel welcoming, considered, and personal. Bring a reference, describe an idea, or start with a conversation.</p><a class="inline-link" href="#appointment">Let's talk about your look <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="gallery section-wrap" id="gallery">
+      <div class="section-heading gallery-heading"><div><p class="eyebrow"><span></span> VISUAL NOTES</p><h2>Style in <em>the details.</em></h2></div><p>A little inspiration for your next visit. Images shown are illustrative stock photography, not verified work from this business.</p></div>
+      <div class="gallery-grid">
+        <figure class="gallery-item gallery-tall"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=85" alt="Barbershop interior with styling chairs" loading="lazy"><figcaption>01 <span>The space</span></figcaption></figure>
+        <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=85" alt="Barber working carefully on a client's haircut" loading="lazy"><figcaption>02 <span>The craft</span></figcaption></figure>
+        <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=85" alt="Barber tools arranged for grooming" loading="lazy"><figcaption>03 <span>The details</span></figcaption></figure>
+        <figure class="gallery-item gallery-wide"><img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=1100&q=85" alt="A stylist working on a client's hair" loading="lazy"><figcaption>04 <span>The process</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="appointment section-dark" id="appointment">
+      <div class="appointment-inner section-wrap">
+        <div class="appointment-copy"><p class="eyebrow"><span></span> START A CONVERSATION</p><h2>Ready for your<br><em>next look?</em></h2><p>Send us your preferred service and timing. We’ll get back to you to confirm availability, pricing, and any service details.</p><div class="appointment-contact"><span class="contact-symbol">↗</span><div><small>Prefer to message us?</small><a href="https://wa.me/923266438812?text=Hello%2C%20I%27d%20like%20to%20ask%20about%20salon%20services%20and%20appointment%20availability." target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a></div></div></div>
+        <form class="appointment-form" id="appointment-form" novalidate>
+          <div class="form-heading"><span>APPOINTMENT ENQUIRY</span><span class="form-required">* Required</span></div>
+          <div class="form-row">
+            <label>Full name <span>*</span><input name="name" type="text" autocomplete="name" placeholder="Your full name" required minlength="2"><small class="error-message"></small></label>
+            <label>Phone number <span>*</span><input name="phone" type="tel" autocomplete="tel" placeholder="+92..." required><small class="error-message"></small></label>
+          </div>
+          <label>Email address <small class="optional">(optional)</small><input name="email" type="email" autocomplete="email" placeholder="you@example.com"><small class="error-message"></small></label>
+          <label>Service you’re interested in <span>*</span>
+            <select name="service" id="service-select" required>
+              <option value="">Choose a service</option>
+              <option>Classic Haircut</option><option>Fade & Taper</option><option>Beard Grooming</option><option>Styling & Finish</option><option>Wash & Care</option><option>Style Consultation</option><option>Other / Not sure yet</option>
+            </select><small class="error-message"></small>
+          </label>
+          <div class="form-row">
+            <label>Preferred date <span>*</span><input name="date" id="appointment-date" type="date" required><small class="error-message"></small></label>
+            <label>Preferred time <span>*</span><select name="time" required><option value="">Choose a time</option><option>Morning (9am–12pm)</option><option>Afternoon (12pm–4pm)</option><option>Evening (4pm–8pm)</option><option>Flexible</option></select><small class="error-message"></small></label>
+          </div>
+          <label>Preferred stylist or barber <small class="optional">(optional, if applicable)</small><input name="stylist" type="text" placeholder="Name or no preference"></label>
+          <label>Anything else we should know? <small class="optional">(optional)</small><textarea name="notes" rows="3" placeholder="Your preferred style, reference, or any questions"></textarea></label>
+          <label class="consent"><input type="checkbox" name="consent" required><span>I understand this is an appointment request, not a confirmed booking. <b>*</b></span></label><small class="error-message consent-error"></small>
+          <button class="button button-gold submit-button" type="submit">Send enquiry on WhatsApp <span aria-hidden="true">↗</span></button>
+          <p class="form-footnote">Your WhatsApp message will open for you to review and send. The salon must confirm availability and final pricing; no booking is made automatically.</p>
+          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="about section-wrap" id="about">
+      <div class="about-mark" aria-hidden="true">F<span>&</span>F</div>
+      <div class="about-content"><p class="eyebrow"><span></span> ABOUT THE STUDIO</p><h2>Good grooming.<br><em>Good energy.</em></h2><p>FORM & FADE is a sample salon and barbershop identity created for this website template. Use this section to share your real business story, values, and approach once those details are available.</p><a class="inline-link" href="#contact">Visit or contact us <span aria-hidden="true">↗</span></a></div>
+      <div class="about-note"><span class="note-number">01</span><p>Personal consultation</p><span class="note-rule"></span><span class="note-number">02</span><p>Thoughtful service</p><span class="note-rule"></span><span class="note-number">03</span><p>Your style, your way</p></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-top section-wrap"><div><p class="eyebrow"><span></span> FIND YOUR WAY</p><h2>Let's make it <em>personal.</em></h2></div><p>Have a question about a service? Get in touch and we’ll help you work out the next step.</p></div>
+      <div class="contact-grid section-wrap">
+        <div class="contact-block"><span class="contact-label">CALL US</span><a href="tel:+923266438812">+92 326 6438812</a><small>Sample contact number — replace if needed</small></div>
+        <div class="contact-block"><span class="contact-label">EMAIL</span><a href="mailto:hello@formandfade.example">hello@formandfade.example</a><small>Replace with your real business email</small></div>
+        <div class="contact-block"><span class="contact-label">OPENING HOURS</span><p>Please contact us to confirm opening hours.</p><small>Availability is confirmed by the business</small></div>
+        <div class="contact-block"><span class="contact-label">LOCATION</span><p>Address to be added</p><small>Add your verified business address for directions</small></div>
+      </div>
+      <div class="map-placeholder"><span class="map-pin" aria-hidden="true">⌖</span><div><strong>Your salon, your neighbourhood.</strong><p>Add your real address to enable accurate map directions.</p></div><span class="map-caption">LOCATION DETAILS PENDING</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main section-wrap"><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">F<span>&</span>F</span><span class="brand-name">FORM <i>&</i> FADE<small>HAIR • GROOMING • STYLE</small></span></a><p>Make it yours. Make it personal.</p><a class="footer-top" href="#home">BACK TO TOP ↑</a></div>
+    <div class="footer-bottom section-wrap"><span>© <span id="current-year"></span> FORM & FADE. Sample website template.</span><span>Designed with care <i>✳</i></span></div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/923266438812?text=Hello%2C%20I%27d%20like%20to%20ask%20about%20salon%20services%20or%20appointment%20availability." target="_blank" rel="noopener noreferrer" aria-label="Ask about salon services or appointment availability on WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.03 3.2A12.65 12.65 0 0 0 5.1 22.2L3.4 28.4l6.35-1.67A12.67 12.67 0 1 0 16.03 3.2Zm0 22.99c-1.95 0-3.86-.52-5.53-1.51l-.4-.24-3.77.99 1.01-3.67-.26-.42a10.3 10.3 0 1 1 8.95 4.85Zm5.65-7.72c-.31-.16-1.83-.9-2.12-1-.29-.11-.49-.16-.7.16-.2.31-.8 1- .98 1.21-.18.2-.36.23-.67.08-.31-.16-1.3-.48-2.48-1.52-.92-.82-1.54-1.83-1.72-2.14-.18-.31-.02-.48.14-.64.14-.14.31-.36.47-.54.16-.18.21-.31.31-.52.11-.2.06-.39-.03-.54-.08-.16-.7-1.68-.96-2.3-.25-.6-.51-.52-.7-.53h-.6c-.21 0-.54.08-.83.39-.28.31-1.08 1.05-1.08 2.56s1.1 2.97 1.25 3.17c.16.21 2.17 3.32 5.26 4.66.73.31 1.3.5 1.74.64.73.23 1.4.2 1.93.12.59-.09 1.83-.75 2.09-1.47.26-.72.26-1.34.18-1.47-.08-.13-.28-.21-.59-.36Z"/></svg>
+    <span>Chat with us</span>
+  </a>
+</body>
+</html>

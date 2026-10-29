@@ -57,3 +57,12 @@ Previews are CSS-made concept artwork, not claims of real client work or real li
 - The WhatsApp contact number is configured as `923266438812`.
 - The portfolio shows 6 cards at first and reveals 6 more each time the visitor clicks **Show 6 more**.
 - The WhatsApp promotional popup appears after 4 seconds and can be dismissed with its close button.
+
+
+## Portfolio screenshot previews
+
+The 36 project cards now display their matching real PNG screenshots from the
+`website_screenshots/` folder. Keep that folder alongside `index.html`,
+`style.css`, and `script.js`. The image links are relative paths, so the project
+works locally and can be uploaded as a complete folder to hosting. Existing
+project links, filters, and Show More behavior are preserved.

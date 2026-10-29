@@ -14,7 +14,7 @@ const PROJECT_LINKS = {
   tuition: "https://www.creativestudio.click/tuition-academy-website/",
   taxi: "https://www.creativestudio.click/taxi-airport-transfer-website/",
   "car-rental": "https://www.creativestudio.click/car_rental_website/",
-  solar: "",
+  solar: "https://www.creativestudio.click/solar-installation-website/",
   furniture: "https://www.creativestudio.click/furniture_shop_website/",
   "wedding-photo": "https://www.creativestudio.click/wedding_photography_planner_website/",
   bakery: "https://www.creativestudio.click/bakery_website/",
@@ -22,8 +22,8 @@ const PROJECT_LINKS = {
   gym: "https://www.creativestudio.click/fitness-gym-website/",
   machinery: "https://www.creativestudio.click/machinery_supplier_website/",
   "diagnostic-lab": "https://www.creativestudio.click/diagnostic_laboratory_website/",
-  "plumbers-electricians": "",
-  "cleaning-services": "",
+  "plumbers-electricians": "https://www.creativestudio.click/plumbing-electrical-website/",
+  "cleaning-services": "https://www.creativestudio.click/cleaning-services-website/",
   painters: "https://www.creativestudio.click/painters-decorators-website/",
   "car-wash": "https://www.creativestudio.click/car-wash-mobile-valeting-website/",
   "event-planners": "https://www.creativestudio.click/event-planners-decorators-website/",
@@ -37,7 +37,8 @@ const PROJECT_LINKS = {
   "photo-video": "https://www.creativestudio.click/photography-videography-website/",
   "window-cleaning": "https://www.creativestudio.click/window-cleaning-website/",
   renovation: "https://www.creativestudio.click/bathroom-kitchen-renovation-website/",
-  "hair-salon": ""
+  "hair-salon": "https://www.creativestudio.click/hair-salon-website/",
+  "private-taxi": "https://www.creativestudio.click/private-taxi-website/"
 };
 
 
@@ -194,4 +195,3 @@ if (waPopup && waPopupClose && waPopupMain) {
 }
 const year = document.querySelector("#year");
 if (year) year.textContent = new Date().getFullYear();
- 
